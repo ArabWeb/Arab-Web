@@ -78,6 +78,6 @@ var numComments = numComments || 5, avatarSize = avatarSize || 60, characters = 
         if (hideCredits == true) {
             hideCSS = "display:block;";
         }
-        // commentsHtml += "<span style=\"font-size:8px;display:block;text-align:right;color: transparent;" + hideCSS + "\">widget by <a href=\"http://arab-web-tech.blogspot.com" target=\"_blank\" style=\" color: transparent;\">Arab-Web</a></span>";
+        // commentsHtml += "<span style=\"font-size:8px;display:block;text-align:right;color: transparent;" + hideCSS + "\">widget by <a style=\"color: transparent;" + hideCSS + "\" href=\"http://arab-web-tech.blogspot.com" target=\"_blank\">Arab-Web</a></span>";
         document.write(commentsHtml);
     }
